@@ -1,6 +1,6 @@
-INSERT INTO users (name, email, password) VALUES ('peter griffin', 'petergriffin@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('tarzan', 'tarzan@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
-INSERT INTO users (name, email, password) VALUES ('buzz lightyear', 'buzzlightyear@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u');
+INSERT INTO users (name, email, password) VALUES ('peter griffin', 'petergriffin@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('tarzan', 'tarzan@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+INSERT INTO users (name, email, password) VALUES ('buzz lightyear', 'buzzlightyear@gmail.ca', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active) 
 VALUES (1, 'Black corner', 'description', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&h=350' , 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', 300, 6, 4, 8, 'Canada', '324 Anything street', 'Toronto', 'Ontario', 'L8S4D1', true);
