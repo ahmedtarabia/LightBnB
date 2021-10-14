@@ -193,9 +193,9 @@ const addProperty = function(property) {
     number_of_bathrooms,
     number_of_bedrooms) 
     VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13 ,$14)
-
+    RETURNING *;
   `
-
+// 
   return pool.query(queryString, queryParams).then((result) => result.rows[0]);
 }
 exports.addProperty = addProperty;
